@@ -1,0 +1,35 @@
+[
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "creator",
+				"type": "address"
+			}
+		],
+		"name": "getCampaignsByAddress",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address[]"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "priceSet",
+				"type": "uint256"
+			}
+		],
+		"name": "createEscrow",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
